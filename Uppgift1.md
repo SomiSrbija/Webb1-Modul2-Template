@@ -15,3 +15,13 @@
 
 # Anteckningar
 Anteckna kort här vad du har gjort för förändringar på sidan i denna uppgift.
+
+Jag har valt att göra en hemsida om ett gym: Gym
+
+Innehåll:
+
+• Startsida (index.html)  
+• Träningspass (pass.html)  
+• Kontakt (kontakt.html)
+
+alla sidor använder samma CSS-fil styles.css

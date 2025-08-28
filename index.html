@@ -1,37 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
+    <title>Top Burger</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#section1">Section 1</a></li>
-                <li><a href="#section2">Section 2</a></li>
-            </ul>
-        </nav>
+<header id="toppen">
+    <h1>Top Burger</h1>
+    <p class="slogan">Top Burger hemsida</p>
 
-    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="about.html">Om oss</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="avancerad/avancerad.html">Avancerad</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <main>
-        <section>
+<main>
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Välkommen till Top Burger</h2>
+            <p>Vi serverar allt. Från burgare till kalla drycker</p>
+            <a class="button" href="#meny">Se meny</a>
+        </div>
+    </section>
 
-        </section>
+    <section id="om" class="info-section">
+        <h2>Om restaurangen</h2>
+        <p>Top Burger är en bra restaurang</p>
 
-        <section>
-            
-        </section>
+        <div class="text-box">
+            <p>div + klass. background padding border & margin.</p>
+        </div>
+    </section>
 
-    </main>
+    <section id="meny" class="menu-section">
+        <h1 class="special-title">Special</h1>
 
+        <div class="float-box">
+            <p>Hallå</p>
+        </div>
 
-    <footer></footer>
+        <p>Bästa burgage är  dubbel cheeseburgare med pommes</p>
+
+        <div class="menu-grid">
+            <div class="card">
+                <h3>Cheeseburgare</h3>
+                <p>Bröd, kött, ost, sallad och dressing.</p>
+                <span>999 kr</span>
+            </div>
+
+            <div class="card">
+                <h3>Kycklingburgare</h3>
+                <p>Krispig kyckling, sallad och vitlökssås.</p>
+                <span>211 kr</span>
+            </div>
+
+            <div class="card">
+                <h3>Pommes</h3>
+                <p>Saltade pommes med valfri dipp.</p>
+                <span>356 kr</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="contact-section">
+        <h2>Kontakta oss</h2>
+        <p>Du kan kontakta oss via mejl eller telefon</p>
+
+        <div class="contact-cards">
+            <div class="contact-card">
+                <h3>Mejl</h3>
+                <p>info@topburger.se</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Telefon</h3>
+                <p>0701234567</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Kontakt: info@topburger.se | 0701234567</p>
+    <p><a href="#toppen">Till toppen</a></p>
+</footer>
 </body>
 
 </html>
